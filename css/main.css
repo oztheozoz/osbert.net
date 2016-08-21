@@ -1,22 +1,95 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-size: 100%;
+}
 
+body {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.jumbotron {
+  background: #000000 url('../img/polygon_background.jpg') no-repeat fixed left top;
+  background-size: cover;
+  padding: 50px 0 0 0;
+}
 
+.jumbotron p {
+  font-size: 1rem;
+}
 
+#command-line-container {
+  margin: 65px auto;
+}
 
+#command-line {
+  position: relative;
+  height: 68px;
+  font-size: 1.5625rem;
+  color: white;
+  border-radius: 6px;
+  background-color: rgba(105, 105, 105, .78);
+}
 
+#command-line>p {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 21px;
+}
 
+#about-container {
+  background-color: rgba(37, 88, 134, .80);
+}
 
+.content-padding {
+  padding: 50px 0;
+}
 
+h1 {
+  padding-bottom: 12px;
+}
 
+h1.article-title-light {
+  color: white;
+  font-size: 2.5rem;
+}
 
+h1.article-title-dark {
+  color: #2D6590;
+  font-size: 2.5rem;
+}
 
+h2.article-subtitle {
+  color: #31A8CF;
+  font-size: 1.875rem;
+}
 
+.text-light {
+  color: white;
+}
 
+.text-dark {
+  color: #2D6590;
+  font-size: 25px;
+}
 
-
+@media only screen and (max-width: 544px) {
+  html {
+    font-size: 90%;
+  }
+  #command-line-container {
+    margin: 40px auto;
+  }
+  #command-line {
+    height: 55px;
+  }
+  #command-line>p {
+    margin-top: 18px;
+  }
+  .content-padding {
+    padding: 25px 0;
+  }
+}
