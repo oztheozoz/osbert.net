@@ -2,6 +2,35 @@
    Author's custom styles
    ========================================================================== */
 
+
+/* unvisited link */
+
+a:link {
+  color: #17A3D3;
+}
+
+
+/* visited link */
+
+a:visited {
+  color: #17A3D3;
+}
+
+
+/* mouse over link */
+
+a:hover {
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+  color: #337ab7;
+}
+
 html {
   font-size: 100%;
 }
@@ -11,10 +40,50 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.glyphicon {
+  color: #8A8A8A;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.skill-title {
+  display: inline-block;
+  width: 60%;
+}
+
+.skill-rating {
+  float: right;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: list-item;
+  padding: 6px 0;
+}
+
+#contact li img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.filled {
+  color: #36B8CF;
+}
+
+.container {
+  max-width: 1280px;
+}
+
 .jumbotron {
   background: #000000 url('../img/polygon_background.jpg') no-repeat fixed left top;
   background-size: cover;
   padding: 50px 0 0 0;
+  margin-bottom: 0;
 }
 
 .jumbotron p {
@@ -44,12 +113,33 @@ body {
   background-color: rgba(37, 88, 134, .80);
 }
 
+#skillset-container {
+  background-color: #303957;
+}
+
+#contact-container {
+  background-color: #424242;
+}
+
+footer {
+  background-color: #424242;
+}
+
 .content-padding {
   padding: 50px 0;
 }
 
 h1 {
   padding-bottom: 12px;
+}
+
+h1.header-title {
+  display: inline-block;
+  color: white;
+  font-size: 2.1875rem;
+  padding: 0;
+  margin: 0 0 0 12px;
+  vertical-align: middle;
 }
 
 h1.article-title-light {
@@ -62,7 +152,7 @@ h1.article-title-dark {
   font-size: 2.5rem;
 }
 
-h2.article-subtitle {
+h2.article-title {
   color: #31A8CF;
   font-size: 1.875rem;
 }
@@ -74,6 +164,29 @@ h2.article-subtitle {
 .text-dark {
   color: #2D6590;
   font-size: 25px;
+}
+
+#oz-logo {
+  display: inline-block;
+  width: 57px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.social-logo {
+  width: 44px;
+}
+
+.section-spacing {
+  margin-bottom: 50px;
+}
+
+.container-spacing {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 544px) {
@@ -91,5 +204,12 @@ h2.article-subtitle {
   }
   .content-padding {
     padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 180px;
+    padding-right: 180px;
   }
 }
