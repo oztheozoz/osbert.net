@@ -180,6 +180,10 @@ h2.article-title {
   width: 44px;
 }
 
+#itunes-logo {
+  width: 110px;
+}
+
 .section-spacing {
   margin-bottom: 50px;
 }
@@ -187,6 +191,10 @@ h2.article-title {
 .container-spacing {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#itunes-logo-row {
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 544px) {
