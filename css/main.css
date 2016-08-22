@@ -40,6 +40,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+hr {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .glyphicon {
   color: #8A8A8A;
 }
@@ -118,10 +124,6 @@ li {
 }
 
 #contact-container {
-  background-color: #424242;
-}
-
-footer {
   background-color: #424242;
 }
 
